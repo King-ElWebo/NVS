@@ -1,2 +1,2 @@
 # NVS
-Spengergasse, NWG
+Spengergasse, NVS
