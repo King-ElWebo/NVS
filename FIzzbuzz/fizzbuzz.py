@@ -1,12 +1,24 @@
-def fizz_buzz():
-    for i in range(1, 101):
+def extended_fizzbuzz():
+    i = 1
+    while True:
         output = ""
+
         if i % 3 == 0:
             output += "Fizz"
         if i % 5 == 0:
             output += "Buzz"
+        if i % 7 == 0:
+            output += "Whizz"
+        if i % 11 == 0:
+            output += "Bang"
+
         print(output or i)
 
-fizz_buzz()
+        if output == "FizzBuzzWhizzBang":
+            break
 
-# von Benjamin Wilk
+        i += 1
+
+extended_fizzbuzz()
+
+# Benjamin Wilk
